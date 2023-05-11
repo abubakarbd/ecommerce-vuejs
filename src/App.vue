@@ -8,7 +8,7 @@ import {
   ProductModal,
   TopFooter,
   FooterPart
-} from '@/components/commons'
+} from '@/components/commons';
 </script>
 
 <template>
@@ -27,9 +27,6 @@ import {
     <ProductModal />
 
     <router-view></router-view>
-
-
-
 
     <TopFooter />
 

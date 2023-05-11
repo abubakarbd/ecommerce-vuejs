@@ -3,9 +3,11 @@ import Index from '../views/pages/index.vue'
 import Login from '../views/auth/Login.vue'
 import Register from '../views/auth/Register.vue'
 import Shop from '../views/pages/Shop.vue'
+import Wishlist from '../views/pages/Wishlist.vue'
 const routes = [
     { path: '/', name:'index', component: Index, meta:{title:"Home"} },
     { path: '/shop', name:'shop', component: Shop, meta:{title:"Shops"} },
+    { path: '/wishlist', name:'wishlist', component: Wishlist, meta:{title:"Wishlist"} },
 
     { path: '/auth/login', name:'user.login', component: Login, meta:{title:"Login"} },
     { path: '/auth/register', name:'user.register', component: Register, meta:{title:"Register"} },
